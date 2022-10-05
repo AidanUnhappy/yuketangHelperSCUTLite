@@ -7,6 +7,10 @@ import requests
 import re
 import json
 
+import sys
+reload(sys)
+sys.setdefaultencoding( "utf-8" )
+
 # 以下的csrftoken和sessionid需要改成自己登录后的cookie中对应的字段！！！！而且脚本需在登录雨课堂状态下使用
 # 登录上雨课堂，然后按F12-->选Application-->找到雨课堂的cookies，寻找csrftoken、sessionid、university_id字段，并复制到下面两行即可
 csrftoken = "KetvfRM9KUFXlqvw5l8AZyhXCHZ5bADL"  # 需改成自己的
