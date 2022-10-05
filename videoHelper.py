@@ -9,10 +9,10 @@ import json
 
 # 以下的csrftoken和sessionid需要改成自己登录后的cookie中对应的字段！！！！而且脚本需在登录雨课堂状态下使用
 # 登录上雨课堂，然后按F12-->选Application-->找到雨课堂的cookies，寻找csrftoken、sessionid、university_id字段，并复制到下面两行即可
-csrftoken = ""  # 需改成自己的
-sessionid = ""  # 需改成自己的
-university_id = ""  # 需改成自己的
-url_root = ""  # 按需修改域名 example:https://*****.yuketang.cn/
+csrftoken = "KetvfRM9KUFXlqvw5l8AZyhXCHZ5bADL"  # 需改成自己的
+sessionid = "08cnltiqvqqg9fjaz3bi5fwnskz1jcnm"  # 需改成自己的
+university_id = "2627"  # 需改成自己的
+url_root = "https://scut.yuketang.cn/"  # 按需修改域名 example:https://*****.yuketang.cn/
 learning_rate = 4  # 学习速率 我觉得默认的这个就挺好的
 
 # 以下字段不用改，下面的代码也不用改动
